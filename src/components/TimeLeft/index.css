@@ -1,0 +1,25 @@
+.TimeLeft-container {
+  color: white;
+  background-color: #475987;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  min-height: 50px;
+  height: 50px;
+  display: flex;
+  font-family: roboto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countdown {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.time-left-heading {
+  font-size: 18px;
+  font-weight: 400px;
+  font-size: 18px;
+}

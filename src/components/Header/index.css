@@ -1,0 +1,43 @@
+.header-bg {
+  background-color: #263868;
+  padding: 0.1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-website-logo {
+  height: 55px;
+  width: 98px;
+  color: white;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.logout-button {
+  all: initial;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-family: roboto;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
