@@ -44,6 +44,7 @@
 .next-question-button-container {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .next-question-button {
@@ -165,6 +166,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.AP-selected-question-list-box {
+  background-color: #EBE6F1;
+  border: 1px solid #7c599f;
 }
 
 .AP-questions-list-box-num {
@@ -182,6 +189,7 @@
   display: flex;
   align-items: center;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .AP-submit-button {
@@ -230,15 +238,15 @@
 
 .image-option-button {
   all: initial;
-  margin-top: 10px;
-  margin-bottom: 10px;
   border-radius: 8px;
   cursor: pointer;
-  margin-right: 50px;
+  /* margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
 }
 
 .selected-image-option-button {
-  border: solid 2px #263868;
+  border: solid 3px #263868;
 }
 
 .image-option-img {
@@ -291,4 +299,19 @@
 
 .select-options-container option {
   background-color: white;
+}
+
+.single-select-note-container {
+  background-color: #fef3c7;
+  color: #d97706;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  margin-right: 160px;
+}
+
+.single-select-note-icon {
+  margin-right: 7px;
 }
